@@ -30,3 +30,13 @@ Do the following instructions:
 
 2. Type in the following link: github.com/Sl4y3rJ3ns/zpilot/
    and press Enter.
+
+Features to be added:
+
+  - Google Assistant Integration
+
+  - Weather
+
+  - Ability to upload to remote server of your choosing
+
+  - Plenty more in the future.
