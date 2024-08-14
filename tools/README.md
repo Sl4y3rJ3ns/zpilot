@@ -1,4 +1,4 @@
-# openpilot tools
+# zpilot tools
 
 ## System Requirements
 
@@ -8,24 +8,24 @@ Running natively on any other system is not recommended and will require modific
 
 ## Native setup on Ubuntu 24.04
 
-**1. Clone openpilot**
+**1. Clone zpilot**
 
 NOTE: This repository uses Git LFS for large files. Ensure you have [Git LFS](https://git-lfs.com/) installed and set up before cloning or working with it.
 
 Either do a partial clone for faster download:
 ``` bash
-git clone --filter=blob:none --recurse-submodules --also-filter-submodules https://github.com/commaai/openpilot.git
+git clone --filter=blob:none --recurse-submodules --also-filter-submodules https://github.com/Sl4y3rJ3ns/zpilot.git
 ```
 
 or do a full clone:
 ``` bash
-git clone --recurse-submodules https://github.com/commaai/openpilot.git
+git clone --recurse-submodules https://github.com/Sl4y3rJ3ns/zpilot.git
 ```
 
 **2. Run the setup script**
 
 ``` bash
-cd openpilot
+cd zpilot
 tools/ubuntu_setup.sh
 ```
 
@@ -50,7 +50,7 @@ scons -u -j$(nproc)
 
 ## Dev Container on any Linux or macOS
 
-openpilot supports [Dev Containers](https://containers.dev/). Dev containers provide customizable and consistent development environment wrapped inside a container. This means you can develop in a designated environment matching our primary development target, regardless of your local setup.
+zpilot supports [Dev Containers](https://containers.dev/). Dev containers provide customizable and consistent development environment wrapped inside a container. This means you can develop in a designated environment matching our primary development target, regardless of your local setup.
 
 Dev containers are supported in [multiple editors and IDEs](https://containers.dev/supporting), including Visual Studio Code. Use the following [guide](https://code.visualstudio.com/docs/devcontainers/containers) to start using them with VSCode.
 
