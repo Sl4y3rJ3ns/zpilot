@@ -2,7 +2,7 @@
 
 ## System Requirements
 
-openpilot is developed and tested on **Ubuntu 24.04**, which is the primary development target aside from the [supported embedded hardware](https://github.com/commaai/openpilot#running-on-a-dedicated-device-in-a-car).
+zpilot is developed and tested on **Ubuntu 24.04**, which is the primary development target aside from the [supported embedded hardware](https://github.com/commaai/openpilot#running-on-a-dedicated-device-in-a-car).
 
 Running natively on any other system is not recommended and will require modifications. On Windows you can use WSL, and on macOS or incompatible Linux systems, it is recommended to use the dev containers.
 
@@ -42,7 +42,7 @@ Activate a shell with the Python dependencies installed:
 source .venv/bin/activate
 ```
 
-**5. Build openpilot**
+**5. Build zpilot**
 
 ``` bash
 scons -u -j$(nproc)
